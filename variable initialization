@@ -1,0 +1,10 @@
+<html>
+<body>
+<?php
+$var=10;
+$num=(int)readline("enter a value\n");
+echo("user entered ".$num."\r");
+echo("Initialized value ".$var."\n");
+?>
+</body>
+</html>
