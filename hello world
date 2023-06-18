@@ -1,12 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>
-first program
-</title>
-</head>
 <body>
-<?php
+<? php
 echo "Hello World";
 ?>
 </body>
