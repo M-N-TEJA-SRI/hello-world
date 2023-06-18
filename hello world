@@ -6,10 +6,10 @@ first program
 </head>
 <body>
 <?php
-echo("Hello World\n");
+echo("Hello World"."<br>");
 echo'hello cse'."<br>";
-print("Welcome to php\n");
-print('Have a good day'."<br>";
+print("Welcome to php"."<br>");
+print('Have a good day'."<br>");
 ?>
 </body>
 </html>
