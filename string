@@ -1,0 +1,14 @@
+<html>
+<body>
+<?php
+$var='teja';
+$str="movie";
+echo("string=".$str."\n");
+echo("string=".$var."\n");
+$intr=(string)readline("enter name\n");
+echo("value=".$intr."\n");
+var_dump($var);
+var_dump($intr);
+?>
+</body>
+</html>
