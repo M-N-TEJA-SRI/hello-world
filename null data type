@@ -1,0 +1,9 @@
+<html>
+<body>
+<?php
+$var="hello";
+$var=null;
+var_dump($var);
+?>
+</body>
+</html>
