@@ -1,0 +1,17 @@
+<html>
+<body>
+<?php
+$a=8;
+$b=9;
+$c=4;
+$d=2;
+echo("add=".$a+$b."\n");  
+echo("sub=".$a-$b."\n");
+echo("diff=".abs($a-$b)."\n");
+echo("mul=".$a*$b."\n");
+echo("div=".$a/$b."\n");
+echo("div=".$c/$d."\n");
+echo("power=".$a**$b."\n");
+?>
+</body>
+</html>
