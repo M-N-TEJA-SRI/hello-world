@@ -1,0 +1,43 @@
+<?php
+$a=8;
+$b=9;
+{
+if($a>=$b)
+{
+    echo("a is greater than or equal to b \n");
+}
+else
+echo("a is less than b\n");
+}
+{
+    if($a<=$b)
+    {
+    echo("a is lesser than or equal to b \n");
+}
+else
+echo(" a is greater than b\n");
+   
+}
+{
+    if($a>$b)
+    {
+        echo("a is greater than b \n");
+    }
+    else
+    {
+        echo("a is not greater than b\n");
+    }
+    {
+    if($a<$b)
+    {
+        echo("a is less  than b \n");
+    }
+    else
+    {
+        echo("a is greater than b\n");
+    }
+    }
+    
+    
+}
+?>
