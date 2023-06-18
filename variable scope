@@ -1,0 +1,17 @@
+<html>
+<body>
+<?php
+$global=56;
+echo("global variable=".$global."\n");
+function mynum()
+{
+    $local=9;
+    echo("local variable=".$local."\n");
+}
+static $int=9;
+echo($int++."\n");
+echo($int++."\n");
+mynum();
+?>
+  </body>
+  </html>
