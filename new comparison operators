@@ -1,0 +1,55 @@
+<html>
+  <body>
+  <?php
+$a=8;
+$b=9;
+{
+if($a==$b)
+{
+    echo("equal\n");
+}
+else
+echo("not equal\n");
+}
+{
+    if($a===$b)
+    {
+        echo("identical and of same data type\n");
+    }
+    else{
+     echo("either not identical or not of same data type\n");
+}
+}
+{
+    if($a!=$b)
+    {
+        echo("not equal\n");
+    }
+    else
+    {
+        echo("not equal\n");
+    }
+    {
+    if($a<>$b)
+    {
+        echo("not equal\n");
+    }
+    else
+    {
+        echo("not equal\n");
+    }
+    }
+    {
+    if($a!==$b)
+    {
+        echo("not identical or not  of same data type\n");
+    }
+    else{
+     echo("identical and of same data type\n");
+}
+}
+    
+}
+?>
+</body>
+  </html>
