@@ -2,11 +2,13 @@
 <body>
 <?php
 $global=56;
+$num=90;
 echo("global variable=".$global."\n");
 function mynum()
 {
     $local=9;
     echo("local variable=".$local."\n");
+    echo("sum of  global variable values=".$GLOBALS['global']+$GLOBALS['num']);
 }
 static $int=9;
 echo($int++."\n");
