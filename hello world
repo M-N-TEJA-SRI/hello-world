@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <body>
 <?php
+$teja=(string)readline("enter your name\n");           #input function
 echo "Hello World!\r";            //"/r" termed for carriage return ie to enter a new line
 echo("hello all\n");              /* "/n"to enter newline
                                     "<br>" to enter into a new line*/
