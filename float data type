@@ -1,0 +1,12 @@
+<html>
+<body>
+<?php
+$var=90.9;
+echo("variable=".$var."\n");
+$intr=(float)readline("enter value\n");
+echo("value=".$intr."\n");
+var_dump($var);
+var_dump($intr);
+?>
+</body>
+</html>
