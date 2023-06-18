@@ -4,7 +4,7 @@
 echo "Hello World!\r";            //"/r" termed for carriage return ie to enter a new line
 echo("hello all\n");              /* "/n"to enter newline
                                     "<br>" to enter into a new line*/
-print("Welcome to php\n");
+print('Welcome to php'."\n");
 print "Have a good day";           //single line comments
 ?>                                 #single line comments
 </body>                             /*multiple line comments*/
